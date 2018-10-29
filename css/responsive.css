@@ -1,0 +1,92 @@
+/* md Responsive*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* sm - TABLE*/ 
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* xs mobile*/
+
+@media (max-width: 767px)  {
+
+
+#banner h1 {
+    font-size: 80px;
+}
+#banner h2 {
+    font-size: 20px;
+}
+
+#logotipo {
+    
+   background-size: cover;
+}
+
+#foto {
+    height: 250px;
+    margin-left: -25px;
+}
+
+#texto-base {
+
+    font-size: 18px;
+    display: inline-grid;
+    
+}
+
+#portfolio hr {
+
+    visibility: hidden;
+}
+
+#portlofio h2 {
+    font-size: 15px;
+}
+#tumb {
+    display: none;
+}
+
+#tumb img {
+    visibility: hidden;
+   
+}
+
+#carouseld {
+    visibility: visible;
+    height: 400px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+
+
+#tumb h3 {
+    visibility: hidden;
+}
+
+#frasecss h1 {
+    font-size: 33px;
+}
+
+#frasecss h2 {
+    font-size: 25px;
+}
+
+
+
+
+}
+
+@media (max-width: 414px) {
+
+    #logotipo {
+        height: 500px;
+    }
+
+}

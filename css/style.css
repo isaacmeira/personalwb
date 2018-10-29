@@ -1,0 +1,228 @@
+
+@font-face {
+	font-family: 'robotor';
+	src: url("../fonts/Roboto-Regular.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'robotob';
+	src: url("../fonts/Roboto-Bold.ttf");
+	font-size: 1em;
+}
+@font-face {
+	font-family: 'robotoserif';
+	src: url("../fonts/RobotoSlab-Regular.ttf");
+	font-size: 1em;
+}
+
+
+section {
+    background: #fff;
+    position: relative;
+    
+}
+
+#portfolios {
+    background: #eaeaea;
+    margin-top: -20px;
+    height: 800px;;
+    
+}
+
+#topo {
+    height: 950px;
+    position: relative  ;
+    background-size: 100%;
+}
+#logotipo {
+    background-size: 100%;
+    width: 100%;
+    position: fixed;;
+    height: 700px;
+
+}
+#banner h1{
+    position: relative;
+    font-size: 133px;
+    text-align: center;
+    padding-top: 200px;
+    font-family: "robotob";
+    color: coral;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+#banner h2{
+    font-size: 35px;
+    position: relative;
+    font-family: "robotor";
+    color: aliceblue;
+    height: 100%;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    
+}
+
+#abouts{
+    
+    padding: 75px;
+}
+#about h1 {
+
+        position: relative;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 30px;
+        font-family: "robotob";
+        color: coral;
+        line-height: 80px;
+        
+       
+}
+#about hr {
+    border:coral solid 3px;
+	width: 200px;
+	margin-top: -15px;
+}
+#texto-base {
+
+        font-size: 20px;
+        background-size: 100%;
+        bottom: -10px;
+        font-family: "robotor";
+        left: 10%;
+}
+#texto-base h1{
+    font-size: 23px;
+    font-family: "robotob";
+}
+
+#foto{
+    background-size: 100%;
+    height: 380px;
+    border-radius: 100%;
+}
+
+
+#foto-principal {
+    background-size: 100%;
+    bottom: 30px;
+   
+}
+
+
+#portfolio h1 {
+
+    position: relative;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "robotob";
+    color: coral;
+    line-height: 80px;
+}
+#portfolio hr {
+    border:coral solid 3px;
+	width: 250px;
+	margin-top: -15px;
+}
+
+#portfolio h2 {
+    font-size: 20px;
+    position: relative;
+    font-family: "robotor";
+    color: coral;
+    height: 100%;
+    text-align: center;
+    
+}
+
+#news {
+	position: relative;
+    top: -110px;
+
+}
+#news .thumbnails {
+	background-size: 100%;
+
+}
+
+#tumb h3{
+    font-size: 20px;
+    position: relative;
+    font-family: "robotob";
+    color: coral;
+    text-align: center;
+    padding: 22px;
+}
+#tumb img {
+    height: 300px;
+    padding-left: 10px;
+    margin-top: 60px;
+}
+
+
+
+
+#frasecss h1{
+    position: relative;
+    font-size: 133px;
+    text-align: center;
+    padding-top: 90px;
+    font-family: "robotoserif";
+    color: coral;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+#frasecss h2 {
+
+    font-size: 35px;
+    position: relative;
+    font-family: "robotoserif";
+    color: #000000;
+    height: 100%;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#carouseld {
+    visibility: hidden;
+    height: 0px;
+}
+
+
+
+
+
+
+footer {
+    margin-top: 110px;
+    background-size: 100%;
+    background-color: #eaeaea;
+    position: relative;
+    
+}
+footer .row {
+	width: 100%;
+}
+footer .row p {
+	line-height: 55px;
+	margin-bottom: 0;
+}
+
+
+footer #list li {
+    display: inline-block;
+    font-size: 35px;
+    padding-right: 6px;
+}
+
+#text-footer {
+    color: coral;
+    text-align: center;
+    font-family: "robotor";
+    font-size: 25px;
+    
+}
+
+
