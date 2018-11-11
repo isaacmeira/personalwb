@@ -1,20 +1,4 @@
 
-@font-face {
-	font-family: 'robotor';
-	src: url("../fonts/Roboto-Regular.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'robotob';
-	src: url("../fonts/Roboto-Bold.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'robotoserif';
-	src: url("../fonts/RobotoSlab-Regular.ttf");
-	font-size: 1em;
-}
-
 
 section {
     background: #fff;
@@ -30,7 +14,7 @@ section {
 }
 
 #topo {
-    height: 950px;
+    height: 700px;
     position: relative  ;
     background-size: 100%;
 }
@@ -46,7 +30,8 @@ section {
     font-size: 133px;
     text-align: center;
     padding-top: 200px;
-    font-family: "robotob";
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
     color: coral;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
     
@@ -55,7 +40,8 @@ section {
 #banner h2{
     font-size: 35px;
     position: relative;
-    font-family: "robotor";
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
     color: aliceblue;
     height: 100%;
     text-align: center;
@@ -73,7 +59,8 @@ section {
         font-size: 50px;
         text-align: center;
         padding-top: 30px;
-        font-family: "robotob";
+        font-family:'Roboto', sans-serif;
+        font-weight: bold;
         color: coral;
         line-height: 80px;
         
@@ -89,12 +76,14 @@ section {
         font-size: 20px;
         background-size: 100%;
         bottom: -10px;
-        font-family: "robotor";
+        font-family:'Roboto', sans-serif;
+        font-weight: normal;
         left: 10%;
 }
 #texto-base h1{
     font-size: 23px;
-    font-family: "robotob";
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 #foto{
@@ -117,7 +106,8 @@ section {
     font-size: 50px;
     text-align: center;
     padding-top: 40px;
-    font-family: "robotob";
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
     color: coral;
     line-height: 80px;
 }
@@ -130,7 +120,8 @@ section {
 #portfolio h2 {
     font-size: 20px;
     position: relative;
-    font-family: "robotor";
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
     color: coral;
     height: 100%;
     text-align: center;
@@ -150,7 +141,8 @@ section {
 #tumb h3{
     font-size: 20px;
     position: relative;
-    font-family: "robotob";
+    font-family:'Roboto', sans-serif;
+    font-weight: bold;
     color: coral;
     text-align: center;
     padding: 22px;
@@ -169,7 +161,7 @@ section {
     font-size: 133px;
     text-align: center;
     padding-top: 90px;
-    font-family: "robotoserif";
+    font-family: 'Roboto Slab', serif;
     color: coral;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
@@ -178,7 +170,7 @@ section {
 
     font-size: 35px;
     position: relative;
-    font-family: "robotoserif";
+    font-family: 'Roboto Slab', serif;
     color: #000000;
     height: 100%;
     text-align: center;
@@ -189,11 +181,6 @@ section {
     visibility: hidden;
     height: 0px;
 }
-
-
-
-
-
 
 footer {
     margin-top: 110px;
@@ -220,7 +207,8 @@ footer #list li {
 #text-footer {
     color: coral;
     text-align: center;
-    font-family: "robotor";
+    font-family:'Roboto', sans-serif;
+    font-weight: normal;
     font-size: 25px;
     
 }
