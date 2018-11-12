@@ -1,5 +1,4 @@
 
-
 section {
     background: #fff;
     position: relative;
@@ -19,9 +18,9 @@ section {
     background-size: 100%;
 }
 #logotipo {
-    background-size: 100%;
+    
     width: 100%;
-    position: fixed;;
+    position: fixed;
     height: 700px;
 
 }

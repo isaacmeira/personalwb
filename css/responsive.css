@@ -1,8 +1,21 @@
+@media (min-width: 1921px) {
+    #tumb img {
+        height: 330px;
+        padding-left: 135px;
+        margin-top: 96px;
+    }
+
+}
+
+
 /* md Responsive*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
 }
+
+
+
 
 /* sm - TABLE*/ 
 
@@ -77,7 +90,6 @@
 #frasecss h2 {
     font-size: 25px;
 }
-
 
 
 
