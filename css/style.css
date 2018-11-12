@@ -52,7 +52,7 @@ section {
     
     padding: 75px;
 }
-#about h1 {
+#about h3 {
 
         position: relative;
         font-size: 50px;
@@ -79,7 +79,7 @@ section {
         font-weight: normal;
         left: 10%;
 }
-#texto-base h1{
+#texto-base h4{
     font-size: 23px;
     font-family:'Roboto', sans-serif;
     font-weight: bold;
@@ -99,7 +99,7 @@ section {
 }
 
 
-#portfolio h1 {
+#portfolio h5 {
 
     position: relative;
     font-size: 50px;
@@ -155,7 +155,7 @@ section {
 
 
 
-#frasecss h1{
+#frasecss h6{
     position: relative;
     font-size: 133px;
     text-align: center;
