@@ -91,7 +91,14 @@
     font-size: 25px;
 }
 
+footer #list li {
 
+    display: inline-block;
+    font-size: 38px;
+    padding: 2px;
+    margin: 5px;
+
+}
 
 }
 
