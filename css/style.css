@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 
 section {
     background: #fff;
@@ -223,5 +227,6 @@ footer #list li {
 #inner{
     height: 100%
  }
+ 
 
 
