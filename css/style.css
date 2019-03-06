@@ -106,7 +106,7 @@ section {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
     left: 10%;
-    text-align: center;
+   
 }
 
 #texto-base h4 {
@@ -295,7 +295,7 @@ body {
 
 #frasecss h6 {
     position: relative;
-    font-size: 133px;
+    font-size: 100px;
     text-align: center;
     padding-top: 90px;
     font-family: 'Roboto Slab', serif;
@@ -339,7 +339,7 @@ footer .row p {
 footer #list li {
     display: inline-block;
     font-size: 35px;
-    text-align: center;
+    text-align: right;
     padding: 3px;
 }
 
