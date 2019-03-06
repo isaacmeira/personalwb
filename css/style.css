@@ -1,3 +1,7 @@
+
+
+
+
 html {
     text-align: center;
     letter-spacing: 1px;
@@ -293,12 +297,17 @@ body {
 /* END OF BUTTON */
 
 
+#frase {
+    background: rgb(94, 94, 94);
+}
+
+
 #frasecss h6 {
     position: relative;
     font-size: 100px;
     text-align: center;
     padding-top: 90px;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Dancing Script', cursive;
     color: coral;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
@@ -308,7 +317,7 @@ body {
     font-size: 35px;
     position: relative;
     font-family: 'Roboto Slab', serif;
-    color: #000000;
+    color: #eaeaea;
     height: 100%;
     text-align: center;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
