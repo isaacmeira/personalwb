@@ -41,8 +41,9 @@
     }
 
     #foto {
-        height: 250px;
-        margin-left: -25px;
+        height: 100%;
+        margin: auto;
+        width: 100%;
     }
 
     #texto-base {
@@ -51,6 +52,8 @@
         display: inline-grid;
 
     }
+
+    
 
 
     #portlofio h2 {
