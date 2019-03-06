@@ -302,6 +302,7 @@ body {
 }
 
 
+
 #frasecss h6 {
     position: relative;
     font-size: 100px;
@@ -333,10 +334,10 @@ footer {
 
 }
 
-/*footer .row {
+footer .row {
     width: 100%;
     text-align: center;
-}*/
+}
 
 footer .row p {
     line-height: 55px;
