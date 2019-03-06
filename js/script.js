@@ -16,7 +16,7 @@ $(document).ready(function () { // 6,32 5,38 2,34
 
   $("#htmlCircle").circliful({
     animation: 1,
-    animationStep: 6,
+    animationStep: 1.5,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     percent: 70,
@@ -28,7 +28,7 @@ $(document).ready(function () { // 6,32 5,38 2,34
   });
   $("#cssCircle").circliful({
     animation: 1,
-    animationStep: 6,
+    animationStep: 1.5,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     percent: 65,
@@ -40,7 +40,7 @@ $(document).ready(function () { // 6,32 5,38 2,34
   });
   $("#jsCircle").circliful({
     animation: 1,
-    animationStep: 6,
+    animationStep: 1.5,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     percent: 75,
