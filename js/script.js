@@ -4,7 +4,8 @@ $("body").niceScroll({
   cursorcolor: "coral",
   cursorwidth: "10px",
   cursorborder: "none",
-  horizrailenabled: false
+  horizrailenabled: false,
+  hwacceleration: true
 
 });
 
