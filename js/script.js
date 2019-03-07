@@ -1,4 +1,4 @@
-AOS.init({delay:3});
+
 
 // nice scroll
 
