@@ -7,9 +7,8 @@ $("body").niceScroll({
   cursorwidth: "10px",
   cursorborder: "none",
   horizrailenabled: false,
-  hwacceleration: true,
-  scrollspeed: 5
-
+  hwacceleration: true
+  
 });
 
 
