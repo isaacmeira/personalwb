@@ -15,8 +15,9 @@
   <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
   <script src="js/jquery.circliful.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.4/jquery.nicescroll.js"></script>
-  
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
   <!-- Fonts -->
@@ -56,8 +57,8 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
         <div class="container-fluid" id="banner">
 
-          <h1>HELLO WORLD !</h1>
-          <h2>I'm Isaac Meira, and I love to develop.</h2>
+          <h1 class="animated finite bounceInLeft delay-1s">HELLO WORLD !</h1>
+          <h2 class = "animated finite fadeIn delay-1s">I'm Isaac Meira, and I to develop.</h2>
 
 
         </div>
@@ -70,7 +71,11 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
   <section>
 
-    <div class="container" id="about">
+    <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"
+     data-aos-duration="5000"
+     class="container" id="about">
 
       <h3>SOBRE</h3>
       <hr>
@@ -79,8 +84,12 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
 
 
-    <div class="container">
-
+    <div data-aos="fade-left"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine" 
+    data-aos-duration="5000"
+    class="container">
+    
       <div class="row" id="abouts">
         <div class="col-md-6" id="foto-principal">
           <div class="container">
@@ -107,7 +116,11 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
   <section id="portfolios">
 
-    <div class="container " id="portfolio">
+    <div div data-aos="fade-up"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="5000"
+    class="container " id="portfolio">
 
       <h5>SKILLS</h5>
       <hr>
@@ -169,7 +182,9 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
   <section id="behance">
 
-    <div class="container" id='be'>
+    <div data-aos="flip-left"
+    data-aos-duration="5000" 
+    class="container" id='be'>
 
       <p> Além dessas tecnologias, utlizo o <b> GITHUB </b> para controle de versão, você pode acessá-lo através do seu
         link, ao final da página.
@@ -196,7 +211,11 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
   <section id="frase">
 
-    <div class="container" id="frasecss">
+    <div data-aos="fade-left"
+    data-aos-offset="500"
+    data-aos-easing="ease-in-sine"
+    data-aos-duration="5000"
+    class="container" id="frasecss">
 
 
       <h6> "Os olhos são inúteis quando a mente é cega" </h6>
@@ -209,7 +228,7 @@ e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre nodeJS e 
 
 
     <footer>
-      <div class="row row-branco-gelo">
+      <div  class="row row-branco-gelo">
 
         <div class="container">
 

@@ -1,3 +1,5 @@
+AOS.init({delay:3});
+
 // nice scroll
 
 $("body").niceScroll({
@@ -5,7 +7,8 @@ $("body").niceScroll({
   cursorwidth: "10px",
   cursorborder: "none",
   horizrailenabled: false,
-  hwacceleration: true
+  hwacceleration: true,
+  scrollspeed: 5
 
 });
 
