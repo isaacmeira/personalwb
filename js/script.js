@@ -1,4 +1,8 @@
 
+  AOS.init();
+  
+
+
 
 // nice scroll
 
@@ -18,13 +22,14 @@ $("body").niceScroll({
 $(document).ready(function () { // 6,32 5,38 2,34
 
   $("#htmlCircle").circliful({
+    animateInView : true,
     animation: 1,
-    animationStep: 1,
+    animationStep: 2,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     percent: 70,
     progressColor: 'rgb(94,94,94)',
-    
+    fontColor:'rgb(94,94,94)',
     backgroundColor : 'rgb(94,94,94)',
     iconColor: 'coral',
     icon: 'f13b',
@@ -33,11 +38,13 @@ $(document).ready(function () { // 6,32 5,38 2,34
     foregroundColor: 'coral'
   });
   $("#cssCircle").circliful({
+    animateInView: true,
     animation: 1,
-    animationStep: 1,
+    animationStep: 2,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     backgroundColor : 'rgb(94,94,94)',
+    fontColor:'rgb(94,94,94)',
     percent: 65,
     iconColor: 'coral',
     icon: 'f13c',
@@ -46,10 +53,12 @@ $(document).ready(function () { // 6,32 5,38 2,34
     foregroundColor: 'coral'
   });
   $("#jsCircle").circliful({
+    animateInView: true,
     animation: 1,
-    animationStep: 1,
+    animationStep: 2,
     foregroundBorderWidth: 5,
     backgroundColor : 'rgb(94,94,94)',
+    fontColor:'rgb(94,94,94)',
     backgroundBorderWidth: 1,
     percent: 75,
     iconColor: 'coral',
