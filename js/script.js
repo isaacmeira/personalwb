@@ -22,9 +22,9 @@ $("body").niceScroll({
 $(document).ready(function () { // 6,32 5,38 2,34
 
   $("#htmlCircle").circliful({
-    animateInView : true,
+    
     animation: 1,
-    animationStep: 2,
+    animationStep: 1,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     percent: 70,
@@ -38,9 +38,9 @@ $(document).ready(function () { // 6,32 5,38 2,34
     foregroundColor: 'coral'
   });
   $("#cssCircle").circliful({
-    animateInView: true,
+    
     animation: 1,
-    animationStep: 2,
+    animationStep: 1,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
     backgroundColor : 'rgb(94,94,94)',
@@ -53,9 +53,9 @@ $(document).ready(function () { // 6,32 5,38 2,34
     foregroundColor: 'coral'
   });
   $("#jsCircle").circliful({
-    animateInView: true,
+    
     animation: 1,
-    animationStep: 2,
+    animationStep: 1,
     foregroundBorderWidth: 5,
     backgroundColor : 'rgb(94,94,94)',
     fontColor:'rgb(94,94,94)',
