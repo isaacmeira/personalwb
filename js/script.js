@@ -1,9 +1,4 @@
- 
- 
- AOS.init();
- var app = document.getElementById('banner');
- 
- 
+
  particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -111,6 +106,22 @@
   "retina_detect": true
 })
  
+ 
+ 
+ 
+ 
+ 
+ 
+ AOS.init();
+  var app = document.getElementById('banner');
+
+  
+ 
+
+
+
+
+
 // nice scroll
 
 $("body").niceScroll({
