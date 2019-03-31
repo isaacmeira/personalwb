@@ -15,7 +15,8 @@ body {
 section {
     background: #fff;
     position: relative;
-
+    
+    
 }
 
 #portfolios {
@@ -32,9 +33,11 @@ section {
 
 }
 
-#logotipo {
+#particles-js {
 
-    background: #151515 no-repeat center center;
+    background-image: linear-gradient(107.27862486654408deg,
+     rgba(65, 65, 65,1) 4.3203125%
+     ,rgba(0, 0, 0,1) 99.00781249999999%);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -44,9 +47,6 @@ section {
     text-align: center;
     color: #fff;
     display: table;
-
-
-
 }
 
 #banner h1 {
