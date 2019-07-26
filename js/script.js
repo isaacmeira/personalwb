@@ -1,5 +1,4 @@
-
- particlesJS("particles-js", {
+particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 60,
@@ -9,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#ff7f50"
+      "value": "#00c4a7"
     },
     "shape": {
       "type": "circle",
@@ -20,7 +19,7 @@
       "polygon": {
         "nb_sides": 4
       },
-     
+
     },
     "opacity": {
       "value": 0.8680761065997452,
@@ -105,18 +104,13 @@
   },
   "retina_detect": true
 })
- 
- 
- 
- 
- 
- 
- 
- AOS.init();
-  var app = document.getElementById('banner');
 
-  
- 
+
+AOS.init();
+var app = document.getElementById('banner');
+
+
+
 
 
 
@@ -125,12 +119,12 @@
 // nice scroll
 
 $("body").niceScroll({
-  cursorcolor: "coral",
+  cursorcolor: "#00c4a7",
   cursorwidth: "10px",
   cursorborder: "none",
   horizrailenabled: false,
   hwacceleration: true,
-  
+
 });
 
 
@@ -140,54 +134,51 @@ $("body").niceScroll({
 $(document).ready(function () { // 6,32 5,38 2,34
 
   $("#htmlCircle").circliful({
-    
+
     animation: 1,
-    animationStep: 1,
+    animationStep: 2,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    percent: 70,
-    progressColor: 'rgb(94,94,94)',
-    fontColor:'rgb(94,94,94)',
-    backgroundColor : 'rgb(94,94,94)',
-    iconColor: 'coral',
-    icon: 'f13b',
-    iconSize: '40',
+    percentages: 0,
+    percent: 100,
+    backgroundColor: 'rgb(94,94,94)',
+    icon: 'f41b',
     iconPosition: 'middle',
-    foregroundColor: 'coral'
+    iconSize: 40,
+    iconColor: '#2cc7e3',
+    foregroundColor: '#2cc7e3'
+
   });
   $("#cssCircle").circliful({
-    
+
     animation: 1,
-    animationStep: 1,
+    animationStep: 2,
     foregroundBorderWidth: 5,
     backgroundBorderWidth: 1,
-    backgroundColor : 'rgb(94,94,94)',
-    fontColor:'rgb(94,94,94)',
-    percent: 65,
-    iconColor: 'coral',
-    icon: 'f13c',
-    iconSize: '40',
+    percentages: 0,
+    percent: 100,
+    backgroundColor: 'rgb(94,94,94)',
+    icon: 'f3d3',
     iconPosition: 'middle',
-    foregroundColor: 'coral'
+    iconSize: 40,
+    iconColor: '#75b242',
+    foregroundColor: '#75b242'
   });
   $("#jsCircle").circliful({
-    
+
     animation: 1,
-    animationStep: 1,
+    animationStep: 2,
     foregroundBorderWidth: 5,
-    backgroundColor : 'rgb(94,94,94)',
-    fontColor:'rgb(94,94,94)',
     backgroundBorderWidth: 1,
-    percent: 60,
-    iconColor: 'coral',
-    icon: 'f12e',
-    iconSize: '40',
+    percentages: 0,
+    percent: 100,
+    backgroundColor: 'rgb(94,94,94)',
+    icon: 'f41b',
     iconPosition: 'middle',
-    foregroundColor: 'coral'
+    iconSize: 40,
+    iconColor: '#695cb3',
+    foregroundColor: '#695cb3'
   });
 
 
 });
-
-
-

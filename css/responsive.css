@@ -53,9 +53,6 @@
 
     }
 
-    
-
-
     #portlofio h2 {
         font-size: 15px;
     }
@@ -66,17 +63,7 @@
 
     #tumb img {
         visibility: hidden;
-
     }
-
-    #carouseld {
-        visibility: visible;
-        height: 400px;
-        width: 100%;
-        padding-top: 40px;
-    }
-
-
 
     #tumb h3 {
         visibility: hidden;
@@ -90,16 +77,15 @@
         font-size: 25px;
     }
 
-    footer #list li {
 
+    #icons {
         display: inline-block;
-        font-size: 38px;
-        
-
-
+        text-align: center;
+        align-items: center;
+        align-content: center;
     }
 
-    
+
 
 }
 
