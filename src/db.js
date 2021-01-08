@@ -58,7 +58,7 @@ const data = {
       "title": "2019-07-30 Como usar um terminal UNIX com MyZsh - SpaceShip - E Zplugin no Windows e VsCode.",
       "subject" : "Neste artigo foi ensinado passo a passo como instalar e configurar vários serviços envolvendo o Windows e terminal.",
       "links" : ["https://isaacmeira.medium.com/como-usar-um-terminal-unix-com-myzsh-spaceship-e-zplugin-no-windows-e-vscode-7d801ce60064"],
-      "keywords" : [ "Windows", "Termina", "Zsh", "Unix" ]
+      "keywords" : [ "Windows", "Terminal", "Zsh", "Unix" ]
 
     }
 
@@ -68,7 +68,6 @@ const data = {
        "title" : "2019-10-[18,19,20] Mentoria técnica",
        "place" : "Hacking Rio 2019",
        "images": [],
-       
        "description" : "Dos dias 18 a 20 de outubro aconteceu o hacking rio, onde fui mentor técnico de vários desenvolvedores e empresários, o evento teve mais de 3500 participantes." ,
        "tags" : [ "Hackaton", "mentoring"],
        "local" : "Rio de Janeiro - RJ - Brazil."
@@ -76,6 +75,7 @@ const data = {
      {
       "title" : "2020-07-01 Palestra Unifacig",
       "place" : "Centro Universitário de Manhuaçu",
+      "link" : "https://www.youtube.com/watch?v=e3rOd6ooOL4",
       "images": [],
       "description" : "Palestra de como seguir a carreira de desenvolvedor e como é a profissão, foram impactados mais de 300 alunos que nos assistiam via Meet" ,
       "tags" : [ "lecture", "career"],

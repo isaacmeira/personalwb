@@ -57,6 +57,10 @@ h4, h2 {
  
 }
 
+.title {
+  cursor: pointer;
+}
+
 .LeftGrid h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;

@@ -45,7 +45,8 @@ function App() {
           <div className="Articles">
             { data.data.meetups.map((item) => (
               <>
-              <a  className="title" >{item.title}</a>
+              <a target="_blank" href={item.link} className="title" >{item.title}</a>
+              <span className="place">{item.place}</span>
               <span className="subject">{item.description}</span>
               <span className="place">{item.local}</span>
               <div className="rowed">    
