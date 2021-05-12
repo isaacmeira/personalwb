@@ -1,6 +1,7 @@
 import data from './db'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import './App.css';
+import Personal from './assets/image';
 
 function App() {
   return (
@@ -8,9 +9,9 @@ function App() {
       <div className="MainDiv">
         <div className="LeftGrid">
           <h1> Isaac Meira </h1>
-          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG9Ee6hZYgtag/profile-displayphoto-shrink_200_200/0/1602009310732?e=1615420800&v=beta&t=VmKGPB9A4pU098szw2WfrzuvVumZioGSDhou1uYeHRA" alt='me' />
+          <img src={Personal} alt='me' />
           <span>Activities from time 😁</span>
-          <small><strong>Isaac Meira</strong> is a javascript developer, who writes articles for the community, in order to disseminate knowledge for free, works as a developer for about 4 years, always reading noble new technologies and good development practices, in addition to books on self-development and soft-skills . </small>
+          <small><strong>Isaac Meira</strong> is a javascript developer, who writes articles for the community, in order to disseminate knowledge for free, works as a developer for about 4 years, always reading about new technologies and good development practices, in addition to books on self-development and soft-skills . </small>
           <small>Site mantened by: <a target="_blank" href="https://github.com/isaacmeira">Isaac Meira</a></small>
         </div>
         <div className="rightGrid">
