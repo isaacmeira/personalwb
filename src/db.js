@@ -64,6 +64,22 @@ const data = {
 
    ],
    "meetups" : [
+       {
+       "title" : "2021-06-Mentoria gratuita",
+       "place" : "Online",
+       "images": [],
+       "description" : "Iniciei uma mentoria particular gratuita para profissionais iniciantes na carreira, mais de 20 pessoas ja foram impactadas positivamente por essa mentoria, inclusive alguns ja conseguiram seu primeiro emprego." ,
+       "tags" : [ "mentoring"],
+       "local" : "EveryWhere"
+     },
+      {
+       "title" : "2021-05-Mentoria de carreira na SambaTech",
+       "place" : "SambaTech",
+       "images": [],
+       "description" : "Dei uma mentoria de carreira para profissionais iniciantes." ,
+       "tags" : [ "mentoring"],
+       "local" : "Belo Horizonte - MG - Brazil."
+     },
      {
        "title" : "2019-10-[18,19,20] Mentoria técnica",
        "place" : "Hacking Rio 2019",
