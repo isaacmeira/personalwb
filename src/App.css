@@ -7,8 +7,6 @@
   width: 100%;
 }
 
-
-
 .rightGrid {
   overflow: auto;
   margin-left: 50%;
@@ -177,4 +175,33 @@ a {
   text-decoration: none;
   color: #0a67ca;
  
+}
+
+.course {
+  height: 80px;
+  width: 80%;
+  margin-top: 20px;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 19%, rgba(0,212,255,1) 100%);
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow:  0 4px 2px -2px gray; 
+  box-shadow: 0 4px 2px -2px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course:hover {
+  transition: all 0.3s;
+  background: linear-gradient(90deg, rgb(44, 39, 139) 0%, rgb(41, 41, 169) 19%, rgb(71, 132, 144) 100%);
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.cta {
+  margin-top: 10px;
 }
